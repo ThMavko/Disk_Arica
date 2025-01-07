@@ -13,7 +13,7 @@ public class TetrisGameApp extends JFrame {
 
     public TetrisGameApp() {
         setTitle("Tetris Game");
-        setSize(1200, 900);
+        setSize(1200, 1080);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         cardLayout = new CardLayout();
         mainPanel = new JPanel(cardLayout);

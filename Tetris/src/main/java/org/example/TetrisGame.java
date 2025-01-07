@@ -137,7 +137,7 @@ public class TetrisGame extends JPanel {
         JFrame frame = new JFrame("Tetris");
         TetrisGame game = new TetrisGame();
         frame.add(game);
-        frame.setSize(1200, 900);
+        frame.setSize(1200, 1080);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
